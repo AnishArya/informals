@@ -1,21 +1,12 @@
 {
   "name": "informals",
-  "version": "1.0.0",
-  "description": "Basic Chat App using Socket.IO",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
-  },
-  "keywords": [
-    "Socket.IO",
-    "Node.JS",
-    "express"
-  ],
-  "author": "Anish Budhiraja Arya",
-  "license": "ISC",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
   "dependencies": {
-    "express": "^4.16.2",
-    "socket.io": "^2.0.3"
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }

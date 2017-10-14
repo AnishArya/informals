@@ -11,14 +11,15 @@
       #messages { list-style-type: none; margin: 0; padding: 0; }
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #eee; }
-      #messages { margin-bottom: 40px } 
+      #messages { margin-bottom: 40px }
+      #text {color: #eee}
     </style>
   </head>
   <body>
     <ul id="messages"></ul>
     <form action="">
       <input id="messageText" autocomplete="off" /><button>Send</button>
-      <marquee>By Anish Arya</marquee>
+      <marquee id="text">By Anish Arya</marquee>
     </form>
 
     <!-- when the user types in a message, the server gets it as a chat message event. -->
